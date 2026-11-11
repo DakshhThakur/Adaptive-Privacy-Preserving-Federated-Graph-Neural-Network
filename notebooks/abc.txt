@@ -1,0 +1,26 @@
+✅ Day 1 — EDA
+✅ Day 2 — Preprocessing
+✅ Day 3 — Graph Construction
+✅ Day 4 — Node Features
+✅ Day 5 — PyG Graph
+⚠️ Day 6–7 — Node GNN → replaced by edge-level approach
+✅ Day 8 — Edge-Level Graph
+✅ Day 9 — Edge-Level GNN
+✅ Day 10 — 3 Federated Clients
+✅ Day 11 — Local Client Training
+🔵 Day 12 — FedAvg
+⬜ Day 13 — Federated Evaluation
+⬜ Day 14 — 3-Client Visualization
+⬜ Day 15 — Non-IID Clients
+⬜ Day 16 — Non-IID FedAvg
+⬜ Day 17 — Privacy Mechanism
+⬜ Day 18 — Private FedAvg
+⬜ Day 19 — Adaptive Client Weighting
+⬜ Day 20 — Complete Adaptive Private FedGNN
+⬜ Day 21 — Model Comparison
+⬜ Day 22 — Ablation Study
+⬜ Day 23 — Robustness Analysis
+⬜ Day 24 — Deployment
+⬜ Day 25 — Final Results
+⬜ Day 26 — Paper/Synopsis
+⬜ Day 27 — Final Presentation

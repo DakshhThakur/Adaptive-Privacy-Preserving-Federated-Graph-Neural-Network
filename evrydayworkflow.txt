@@ -1,0 +1,147 @@
+PHASE 1 — DATASET & BASELINE
+│
+├── Day 1 → Project Setup + Dataset Understanding
+├── Day 2 → Data Loading + Initial Preprocessing
+├── Day 3 → Data Cleaning + Categorical Encoding
+├── Day 4 → Feature Scaling
+├── Day 5 → Final Dataset Verification
+├── Day 6 → Traditional ML Baseline (Random Forest)
+└── Day 7 → Baseline Evaluation
+             ↓
+PHASE 2 — GRAPH CONSTRUCTION
+│
+├── Day 8  → Graph Theory for Network Data
+├── Day 9  → Define Nodes, Edges & Relationships
+├── Day 10 → Construct Network Graph
+└── Day 11 → Graph Validation & Visualization
+             ↓
+PHASE 3 — CENTRALIZED GNN
+│
+├── Day 12 → PyTorch Basics
+├── Day 13 → GNN / GCN Concepts
+├── Day 14 → Implement GCN
+├── Day 15 → Train Centralized GNN
+├── Day 16 → Evaluate Centralized GNN
+└── Day 17 → Debug & Improve GNN
+             ↓
+PHASE 4 — FEDERATED LEARNING
+│
+├── Day 18 → Create Simulated Clients
+├── Day 19 → Federated Learning + FedAvg
+├── Day 20 → Local GNN Training
+├── Day 21 → Implement FedAvg Aggregation
+├── Day 22 → Complete Federated GNN
+└── Day 23 → Evaluate Federated GNN
+             ↓
+PHASE 5 — PRIVACY
+│
+├── Day 24 → Privacy Mechanism Design
+├── Day 25 → Update Clipping + Noise
+└── Day 26 → Privacy-Preserving Federated GNN
+             ↓
+PHASE 6 — ADAPTIVE FEDERATED LEARNING
+│
+├── Day 27 → Design Adaptive Aggregation
+├── Day 28 → Implement Adaptive Weighting
+└── Day 29 → Complete Adaptive Privacy-Preserving FL-GNN
+             ↓
+PHASE 7 — EXPERIMENTS & COMPARISON
+│
+├── Day 30 → Final Experiments
+├── Day 31 → Metrics + Graphs + Confusion Matrices
+└── Day 32 → Ablation & Model Comparison
+             ↓
+PHASE 8 — DEPLOYMENT & DOCUMENTATION
+│
+├── Day 33 → Build Simple Deployment/Demo
+├── Day 34 → Test Complete System
+└── Day 35 → Report + PPT + README + Viva Preparation
+             ↓
+        FINAL PROTOTYPE
+             ↓
+Adaptive Privacy-Preserving
+Federated GNN
+             ↓
+Network Anomaly Detection
+             ↓
+Normal / Malicious
+
+
+
+
+short workflow
+
+UNSW-NB15
+    ↓
+Data Preprocessing
+    ↓
+Traditional ML Baseline
+    ↓
+Graph Construction
+    ↓
+Centralized GNN
+    ↓
+Simulated Clients
+    ↓
+Federated GNN
+    ↓
+Privacy Protection
+    ↓
+Adaptive Aggregation
+    ↓
+Final Federated GNN
+    ↓
+Performance Comparison
+    ↓
+Deployment
+    ↓
+Final Anomaly Detection
+
+
+
+Days 1–7: Data → Graph
+Day	What we will do	Output
+
+
+1	Set up project folders, Python environment, and verify dataset	Working environment
+2	Load UNSW-NB15, inspect columns, missing values, labels, and class distribution	EDA results
+3	Clean data, encode categorical features, scale numerical features, and save processed data	data/processed/
+4	Understand graph construction: nodes, edges, and features	Graph design
+5	Construct a network graph from available network relationships	graph_data.pt
+6	Visualize the graph and inspect nodes, edges, and features	Graph visualization
+7	Build a basic GNN using the constructed graph	First GNN model
+
+
+Days 8–14: GNN → Federated Learning
+Day	What we will do	Output
+8	Train the GNN and evaluate anomaly detection	Accuracy, precision, recall, F1
+9	Improve the GNN and handle class imbalance	Better baseline
+10	Understand and implement graph-based train/validation/test splitting	Reliable evaluation
+11	Simulate 3 distributed clients from the dataset	Client datasets
+12	Train one local GNN on each client	3 local models
+13	Implement Federated Averaging (FedAvg)	Global model
+14	Evaluate the federated model against the centralized GNN	Comparison results
+
+
+Days 15–21: Privacy → Adaptive Aggregation
+Day	What we will do	Output
+15	Understand privacy risks in federated learning	Privacy design
+16	Implement gradient clipping	Clipped updates
+17	Add Gaussian noise for differential privacy	Private local updates
+18	Test privacy parameters and observe their effect on performance	Privacy experiment
+19	Design adaptive client weighting	Adaptive aggregation logic
+20	Implement adaptive aggregation	Adaptive global model
+21	Compare FedAvg, privacy-preserving FL, and adaptive FL	Main experiment
+
+
+Days 22–30: Research → Working Prototype → Paper
+Day	What we will do	Output
+22	Improve the model and fix remaining errors	Stable prototype
+23	Run final experiments with consistent settings	Final results
+24	Generate accuracy, precision, recall, F1, and confusion matrices	Result figures
+25	Generate training-loss and client-performance graphs	Research figures
+26	Build a simple free Streamlit demo	Working demo
+27	Connect the demo to the trained model	Anomaly prediction
+28	Organize GitHub repository and write README	Complete project
+29	Write research paper: abstract, methodology, experiments, results	Paper draft
+30	Final testing, screenshots, presentation, and paper polishing	Final submission

@@ -1,0 +1,4 @@
+client,total_edges,benign_edges,attack_edges,attack_percentage
+client_1,66755,29701,37054,55.5075
+client_2,66755,29701,37054,55.5075
+client_3,66756,29701,37055,55.5081
